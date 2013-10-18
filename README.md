@@ -11,7 +11,7 @@
 
 ###3. Copy files and add Header Search Path to your project
     Xcode -> TARGETS -> Build Setting -> Header Search Path
-    $(SRCROOT)/Submodules/libxml2-2.7.8_ios6
+    $(SRCROOT)/Submodules/libxml2
 
 ##Reference
 1. [http://coin-c.tumblr.com/post/18063869172/thread-safe-xmllib2](http://coin-c.tumblr.com/post/18063869172/thread-safe-xmllib2, "http://coin-c.tumblr.com/post/18063869172/thread-safe-xmllib2")
