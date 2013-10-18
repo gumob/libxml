@@ -7,6 +7,7 @@ Pod::Spec.new do |spec|
 	spec.version      = '2.7.8'
 	spec.source       = { :git => 'https://raw.github.com/gumob/libxml2.git', :tag => '2.7.8' }
 	spec.prepare_command = <<-CMD
+								chmod +x build.sh
 								./build.sh
 							CMD
 	spec.source_files = 'libxml/*.h'
