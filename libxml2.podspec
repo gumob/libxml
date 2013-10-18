@@ -1,5 +1,6 @@
 Pod::Spec.new do |spec|
 	spec.name					= 'libxml2'
+	spec.authors				= 'libxml2'
 	spec.homepage				= 'https://github.com/gumob/libxml2'
 	spec.summary				= 'Thread safe libxml2 for iOS 6'
 	spec.license				= 'MIT'
